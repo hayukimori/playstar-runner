@@ -2,5 +2,12 @@
 name = "playstar-runner"
 version = "0.1.0"
 edition = "2024"
+description = "Single-inscance enforcer for PlayStar"
+license = "MIT"
 
 [dependencies]
+
+[profile.release]
+opt-level = "z"
+strip = true
+lto = true
