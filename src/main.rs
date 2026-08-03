@@ -55,6 +55,6 @@ fn forward_args(args: &[String]){
             stream.set_write_timeout(Some(Duration::from_secs(2))).ok();
             stream.write_all(payload.as_bytes()).ok();
         }
-        Err(e) => eprintln!("playstar-runner: Connection error while connecting to current instance; Error: {e}"),
+        Err(e) => eprintln!("[playstar-runner]: Connection error while connecting to current instance; Error: {e}"),
     }
 }
