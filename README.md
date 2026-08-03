@@ -25,7 +25,7 @@ cargo build --release --target x86_64-pc-windows-gnu
 
 ## Usage
 
-playstar-runner MUST stay on the same path as `PlayStar` (or `playstar.exe`) executable.
+playstar-runner **must** stay on the same path as `PlayStar` (or `playstar.exe`) executable.
 
 ```sh
 playstar-runner /path/to/song
